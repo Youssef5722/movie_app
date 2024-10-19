@@ -21,13 +21,13 @@ function App() {
     <div className='container'>
    
 <Routes>
-<Route path='/' element={<Home/>}/>
+<Route path='movie_app' element={<Home/>}/>
   
-  <Route path='home' element={<Home/>}/>
-  <Route path='movies' element={<Movies/>}/>
-  <Route path='tvshow' element={<TV/>}/>
-  <Route path='person' element={<Person/>}/>
-  <Route path='movieDetails/:id' element={<MoviesDeatils/>}/>
+  <Route path='movie_app/home' element={<Home/>}/>
+  <Route path='movie_app/movies' element={<Movies/>}/>
+  <Route path='movie_app/tvshow' element={<TV/>}/>
+  <Route path='movie_app/person' element={<Person/>}/>
+  <Route path='movie_app/movieDetails/:id' element={<MoviesDeatils/>}/>
   <Route path='*' element={<NotFound/>}/>
     </Routes>
     </div>
